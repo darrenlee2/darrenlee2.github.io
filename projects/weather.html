@@ -1,0 +1,48 @@
+<head>
+  <title>Weather Wizard</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="weather.css">
+
+  <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+  <script src="weather.js"></script>
+  
+
+</head>
+<body>
+<div class="headbox">
+  <div class="header">
+    <h2 style="font-size: 60px">Weather Wizard</h2>
+  </div>
+  <div class="location">
+    <h3 style="font-size: 40px; font-weight:bold; color: black">Your Location:</h3>
+    
+  <div class="row">
+        <input type="text" name="location" placeholder=" US city name" id="input-city"></input>
+        <button class="btn btn-primary btn-lg" id="city-button">Go</button>
+    </div>
+  <p>-OR-</p>
+    <div class="row">
+        <input type="text" name="location" placeholder=" US zip code" id="input-zip"></input>
+        <button class="btn btn-primary btn-lg" id="zip-button">Go</button>
+    </div>
+  </div>
+</div>
+<br><br>
+  <div class="info">
+    <h3 id="city">Cupertino</h3>
+    <h3 id="temp">[temp]</h3>
+    <div class="row">
+      <div class="col-md-6">
+      <h3 id="hi">[hi]</h3>
+      </div>
+      <div class="col-md-6">
+      <h3 id="lo">[lo]</h3>
+      </div>
+    </div>
+    <h3 id="description">[description]</h3>
+  </div>
+</body>
