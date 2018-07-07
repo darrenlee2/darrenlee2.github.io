@@ -1,376 +1,223 @@
 <html>
   <head>
-    <title>Darren Lee</title>
-
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
-    <!-- favicon -->
-    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-
-    <!-- bootstrap -->
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <!-- css -->
-    <style>
-      body {
-          font-family: 'Open Sans', sans-serif;
-      }
-      .row.equal {
-        display: flex;
-        flex-wrap: wrap;
-      }
-      a:hover {
-          background-color: #91d6ff;
-          text-decoration: none;
-          -webkit-transition: background-color 500ms;
-          -moz-transition: background-color 500ms;
-          -o-transition: background-color 500ms;
-          transition: background-color 500ms;
-      }
-      a {
-          background-color: none;
-          text-decoration: none;
-          color: #000000;
-          -webkit-transition: background-color 500ms;
-          -moz-transition: background-color 500ms;
-          -o-transition: background-color 500ms;
-          transition: background-color 500ms;
-      }
-      .proj-title {
-        font-weight: bold;
-      }
-      .proj-description {
-        font-size: 95%;
-      }
-      .hover-me:before {
-          content: 'me.';
-          display: inline-block;
-      }
-      .hover-me:hover:before {
-          content: 'Darren!';
-      }
-    </style>
+    <title>Darren</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon">
   </head>
 
   <body>
-    <div style="width: 100%; margin: 0; min-width: 1000px;">
+    <div class="main-container">
+      <!-- Site Title -->
+      <div class="content-title-container" id="main-title-container">
+        <div class="title">Darren Lee</div>
+        <div class="subtitle">¯\_(ツ)_/¯</div>
+      </div>
 
-    <!-- Title -->
-        <div class="col-xs-12" style="text-align: center; margin-top: 1%;">
-          <!-- Name -->
-            <h2><a href="#" style="color: #000000;"> Darren Lee </a></h2>
-            <!-- blurb -->
-            <h4 style="color: #999999"> ¯\_(ツ)_/¯ </h4>
-            <br>
+      <!-- Intro -->
+      <div class="intro-container">
+        <div class="profile-pic-container">
+          <img src="./images/profile.jpg" id="profile-pic"/>
         </div>
-
-        <!-- Intro Jumbotron -->
-        <div class="col-xs-12" style="height: 190px;">
-          <!-- Profile Picture -->
-            <img src="./images/profile.JPG" class="col-xs-2" style="height: 100%;" onmouseover="this.src='./images/profile2.jpg';" onmouseout="this.src='./images/profile.JPG';"/>
-
-            <!-- Introduction Text -->
-            <div class="col-xs-8" style="background-color: #EEEEEE; padding: 2%; height: 100%;">
-                <h4 style="text-align: justify; color: #000000; font-size: 150%; line-height: 140%;">
-                    <strong>Hi!</strong>
-                     My name is <strong>Darren</strong>! I'm currently interning at Google. I study 
-                     <a href="https://eecs.berkeley.edu/">EECS</a> at <a href="https://berkeley.edu/">UC Broccoli</a>. I love coding, frisbee, animals, hanging out with friends, and <a href="https://www.facebook.com/groups/1717731545171536/?fref=nf">memes</a>!
-                     <br/><br/>
-                     I have done a few things. Feel free to take a look below! <small>(or not, that's okay too)</small>
-                </h4>
-            </div>
-            <!-- Email, Links, Resume -->
-            <div class="col-xs-2" style="padding: 1.5%; padding-right: 0;">
-              <p style="margin-top: 0px;"> <strong> Email:</strong> <a href="mailto:darrenlee@berkeley.edu" style="color: #999999">darrenlee@berkeley.edu</a></p>
-                <p style="margin-top: 0px;"> <strong> Github:</strong> <a href="https://github.com/darrenlee1" style="color: #999999">/darrenlee1</a></p>
-                <p style="margin-top: 0px;"> <strong> Linkedin:</strong> <a href="https://www.linkedin.com/in/darrenlee2" style="color: #999999">/in/darrenlee2</a></p>
-                <p style="margin-top: 0px;"> <strong> Resume:</strong> <a href="./resume.pdf" style="color: #999999">2018-06-27</a></p>
-            </div>
+        <div class="intro-text-container">
+          <div class="intro-text">
+            <strong>Hi!</strong> My name is Darren, and I am currently interning at Google. I love games, frisbee, animals, <a href="https://www.facebook.com/groups/1717731545171536/?fref=nf">memes</a>, and hanging out with friends!
+          </div>
         </div>
-
-        <hr class="col-xs-12"></hr> <!-- horizontal line -->
-
-        <!-- Projects -->
-
-        <!-- projects title -->
-        <div class="col-xs-12" style="background-color: #FFFFFF; padding: 1%;">
-            <h3 style="text-align: center; ">
-                Projects
-            </h3>
+        <div class="links-container">
+          <div class="link-item">
+            <div class="link-item-name">Email:</div>
+            <div class="link-item-link">dleemagic002@gmail.com</div>
+          </div>
+          <div class="link-item">
+            <div class="link-item-name">Github:</div>
+            <div class="link-item-link">
+              <a href="https://github.com/darrenlee1">/darrenlee1</a>
+            </div>
+          </div>
+          <div class="link-item">
+            <div class="link-item-name">LinkedIn:</div>
+            <div class="link-item-link">
+              <a href="https://github.com/darrenlee1">/in/darrenlee2</a>
+            </div>
+          </div>
+          <div class="link-item">
+            <div class="link-item-name">Resume:</div>
+            <div class="link-item-link">
+              <a href="./resume.pdf">2018-06-27</a>
+            </div>
+          </div>
         </div>
-        <!-- main projects div -->
-        <div class="col-xs-12 row equal">
+      </div>
+      <hr/>
 
-            <!-- mastermind -->
-            <div class="proj col-xs-6" style="padding: 1%; ">
-                <!-- Image -->
-                <div class="col-xs-6">
-                	<iframe src="https://giphy.com/embed/6bdfLt8lICmFPBZW8o" width="100%" frameBorder="0"></iframe>
-                </div>
-                <!-- Text -->
-                <div class="col-xs-6">
-                    <h4 class="proj-title">
-                        <a href="./projects/mastermind.pdf">Mastering Mastermind</a>
-                    </h4>
-                    <h5 class="proj-subtitle">
-                        Python | Apr 2018
-                    </h5>
-                    <p class="proj-description">
-                        My EECS 126 final project team applied <a href="https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">Markov Chain Monte Carlo</a> sampling to the classic game of Mastermind. For fun, we got our algorithm to play an image-guessing game. <a href="./projects/mastermind.pdf">Project report here</a>.
-                    </p>
-                </div>
-            </div>
-
-            <!-- ynpm search -->
-            <div class="proj col-xs-6" style="padding: 1%; ">
-                <!-- Image -->
-                <div class="col-xs-6">
-                    <img src="./images/ynpm.png" style="width:100%;"></img>
-                </div>
-                <!-- Text -->
-                <div class="col-xs-6">
-                    <h4 class="proj-title">
-                        ynpm search
-                    </h4>
-                    <h5 class="proj-subtitle">
-                        JavaScript/Node.js, HTML/CSS | Jun 2017
-                    </h5>
-                    <p class="proj-description">
-                        One of two of my <a href="https://www.yahoo.com/">Yahoo!</a> summer internship projects. Redesigned and rebuilt a developer-facing search website for internal and external <a href="https://www.npmjs.com/">npm modules</a> from scratch using Node.js with Express and Handlebars.
-                    </p>
-                </div>
-            </div>
-
-          <!-- Easy Urban Dictionary Lookup -->
-            <div class="proj col-xs-6" style="padding: 1%; ">
-              <!-- Image -->
-              <div class="col-xs-6">
-                    <img src="./images/urbandict.jpg" style="width:100%;"></img>
-                </div>
-                <!-- Text -->
-                <div class="col-xs-6">
-                    <h4 class="proj-title">
-                      <a href="https://chrome.google.com/webstore/detail/easy-urban-dictionary-loo/jpnfkdokcadnkpmpfjbblfjjokffpbio">
-                        Urban Dictionary Chrome Extension 
-                      </a>
-                    </h4>
-                    <h5 class="proj-subtitle">
-                      JavaScript/jQuery, HTML/CSS | Jan 2017
-                    </h5>
-                    <p class="proj-description">
-                      Built and released an elegant <a href="https://chrome.google.com/webstore/category/extensions">chrome extension</a> that allows users to easily view <a href="http://www.urbandictionary.com/">Urban Dictionary</a> definitions as they browse the web. 
-                    </p>
-                </div>
-            </div>
-
-            <!-- Timeline Widget -->
-            <div class="proj col-xs-6" style="padding: 1%; ">
-              <!-- Image -->
-              <div class="col-xs-6">
-                    <img src="./images/timeline.png" style="width:100%;"></img>
-                </div>
-                <!-- Text -->
-                <div class="col-xs-6">
-                    <h4 class="proj-title">
-                      Timeline Widget
-                    </h4>
-                    <h5 class="proj-subtitle">
-                      JavaScript/AngularJS | Dec 2016
-                    </h5>
-                    <p class="proj-description">
-                      Built and integrated a timeline widget for <a href="http://www.bmc.com/it-solutions/innovation-suite.html">BMC Innovation Studio</a> using AngularJS as part of <a href="http://www.bmc.com/">BMC Software</a>'s winter internship program. Presented our timeline product to BMC executives and received positive feedback.
-                  </p>
-                </div>
-            </div>
-
-            <!-- Scheme Interpreter -->
-            <div class="proj col-xs-6" style="padding: 1%; ">
-              <!-- Image -->
-              <div class="col-xs-6">
-                    <img src="./images/schemeart.png" style="width:100%;"></img>
-                </div>
-                <!-- Text -->
-                <div class="col-xs-6">
-                    <h4 class="proj-title">
-                      Scheme Interpreter 
-                    </h4>
-                    <h5 class="proj-subtitle">
-                      Python, Scheme | Nov 2016
-                    </h5>
-                    <p class="proj-description">
-                      Created a basic <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)">Scheme</a> interpreter in Python that uses "read-eval-print-loop" to parse and evaluate Scheme expressions.
-                      <br/>Used Scheme to create randomly generated recursive art that won 2nd place (out of 32 entries) in <a href="https://cs61a.org/">CS61A</a>'s Scheme Recursive Art Contest.
-                  </p>
-                </div>
-            </div>
-
-            <!-- Admoneo: Location-Based Reminders -->
-            <div class="proj col-xs-6" style="padding: 1%; ">
-              <!-- Image -->
-              <div class="col-xs-6">
-                    <img src="./images/admoneo.png" style="width:100%;"></img>
-                </div>
-                <!-- Text -->
-                <div class="col-xs-6">
-                    <h4 class="proj-title">
-                      <a href="https://github.com/visatish/Admoneo">
-                        Admoneo: Location-Based Reminders (Android app)
-                      </a>
-                    </h4>
-                    <h5 class="proj-subtitle">
-                      Java | Nov 2016
-                    </h5>
-                    <p class="proj-description">
-                      Worked in a team of 5 to create a location-based reminder app for Android that uses <a href="https://developers.google.com/maps/">Google Maps API</a> to send a push notification whenever the user is near a location on his to-do list; created for <a href="http://www.calhacks.io/">CalHacks 3.0</a>.
-                  </p>
-                </div>
-            </div>
-
-            <!-- Handwritten Digit Recognizer -->
-            <div class="proj col-xs-6" style="padding: 1%; ">
-              <!-- Image -->
-              <div class="col-xs-6">
-                    <img src="./images/digits.png" style="width:100%;"></img>
-                </div>
-                <!-- Text -->
-                <div class="col-xs-6">
-                    <h4 class="proj-title">
-                      Handwritten Digit Recognizer 
-                    </h4>
-                    <h5 class="proj-subtitle">
-                      Octave | Jul 2016
-                    </h5>
-                    <p class="proj-description">
-                      Developed an algorithm to recognize handwritten digits using machine learning principles (neural networks, logistic regression) with Octave while self-studying <a href="https://www.coursera.org/learn/machine-learning">Stanford’s machine learning online course</a>.
-                  </p>
-                </div>
-            </div>
-
-            <!-- Colorbox iPhone Game -->
-            <div class="proj col-xs-6" style="padding: 1%; ">
-              <!-- Image -->
-              <div class="col-xs-6">
-                    <img src="./images/colorbox.png" style="width:100%;"></img>
-                </div>
-                <!-- Text -->
-                <div class="col-xs-6">
-                    <h4 class="proj-title">
-                      <!-- http://dleemagic002.wixsite.com/colorbox -->
-                      Colorbox iPhone Game
-                    </h4>
-                    <h5 class="proj-subtitle">
-                      Swift/SpriteKit | Jul 2015
-                    </h5>
-                    <p class="proj-description">
-                      Designed and created an original iPhone game called ColorBox from scratch using Swift and <a href= "https://developer.apple.com/reference/spritekit">SpriteKit</a>. 
-                  </p>
-                </div>
-            </div>
-
-            <!-- Weather Wizard -->
-            <div class="proj col-xs-6" style="padding: 1%; ">
-              <!-- Image -->
-              <div class="col-xs-6">
-                    <img src="./images/weatherwiz.png" style="width:100%;"></img>
-                </div>
-                <!-- Text -->
-                <div class="col-xs-6">
-                    <h4 class="proj-title">
-                      <!-- <a href="projects/weather.html"> -->
-                        Weather Wizard
-                      <!-- </a> -->
-                    </h4>
-                    <h5 class="proj-subtitle">
-                      JavaScript/jQuery, HTML/CSS | Jul 2015
-                    </h5>
-                    <p class="proj-description">
-                      Built an elegant webapp that fetches local weather data using the <a href="https://openweathermap.org/">OpenWeatherMap</a> API. 
-                  </p>
-                </div>
-            </div>
-
-      <!-- Tomato Timer -->
-            <div class="proj col-xs-6" style="padding: 1%; ">
-              <!-- Image -->
-              <div class="col-xs-6">
-                    <img src="./images/tomatotimer.png" style="width:100%;"></img>
-                </div>
-                <!-- Text -->
-                <div class="col-xs-6">
-                    <h4 class="proj-title">
-                      <a href="projects/timer.html">
-                        Tomato Timer
-                      </a>
-                    </h4>
-                    <h5 class="proj-subtitle">
-                      JavaScript/jQuery, HTML/CSS | Jul 2015
-                    </h5>
-                    <p class="proj-description">
-                      Built a simple tomato timer webapp that uses <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">the Pomodoro Technique</a> to increase productivity.
-                  </p>
-                </div>
-            </div>
-
-            <!-- Chelsea's Dog Resort -->
-            <div class="proj col-xs-6" style="padding: 1%; ">
-              <!-- Image -->
-              <div class="col-xs-6">
-                    <img src="./images/dogs.png" style="width:100%;"></img>
-                </div>
-                <!-- Text -->
-                <div class="col-xs-6">
-                    <h4 class="proj-title">
-                      <a href="http://chelseasdogresort.wixsite.com/dogs">
-                        Chelsea's Dog Resort
-                      </a>
-                    </h4>
-                    <h5 class="proj-subtitle">
-                      Wix Website Builder | Jan 2015
-                    </h5>
-                    <p class="proj-description">
-                      Designed and created a beautiful website to introduce quality dog sitting services to the Bay Area. Co-founded dog sitting business with my sister, Chelsea.
-                  </p>
-                </div>
-            </div>
-
-            <!-- Japanese Snow Monkeys -->
-            <div class="proj col-xs-6" style="padding: 1%; ">
-              <!-- Image -->
-              <div class="col-xs-6">
-                    <img src="./images/monkeys.png" style="width:100%;"></img>
-                </div>
-                <!-- Text -->
-                <div class="col-xs-6">
-                    <h4 class="proj-title">
-                      <a href="https://www.youtube.com/watch?v=pH8k51d99iI">
-                        Japanese Snow Monkey Adventure!
-                      </a> <small>(this is not a project)</small>
-                    </h4>
-                    <h5 class="proj-subtitle">
-                      a camera | Jun 2015
-                    </h5>
-                    <p class="proj-description">
-                      We went to Japan in Jun 2015. There's a <a href="http://en.jigokudani-yaenkoen.co.jp/">Snow Monkey Park</a> where snow monkeys roam free! (sorry in advance for shaky filming)
-                      <br/><strong>Bonus:</strong> <a href="./images/wallaby.jpg">me with a wallaby</a> in <a href="http://www.featherdale.com.au/">Australia</a> (Nov 2011) :D
-                  </p>
-                </div>
-            </div>
-
-        </div> <!-- END main projects div -->
-
-        <hr class="col-xs-12"></hr> <!-- horizontal line -->
-
-
-        <!-- Footer -->
-        <div class="col-xs-12" style="margin-top: 2%; margin-bottom: 2%; text-align: center;">
-          <h5>website last updated: 2018-06-27</h5>
-            <h5>
-            	<!--Made by <a class="hover-me" href="#" style="color: #000000;"></a>-->
-              <a href="https://github.com/darrenlee2/darrenlee2.github.io">code on Github</a>
-            </h5>
+      <!-- Projects -->
+      <div class="content-title-container" id="project-title-container">
+        <div class="content-title" id="project-title">Projects</div>
+        <div class="content-subtitle" id="project-subtitle">
+          mostly CS, but maybe some other random things too
         </div>
-
+      </div>
+      <div class="content-container">
+        <!-- Mastering Mastermind -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <iframe src="https://giphy.com/embed/6bdfLt8lICmFPBZW8o" frameBorder="0"></iframe>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              <a href="./projects/mastermind.pdf">Mastering Mastermind</a>
+            </div>
+            <div class="content-item-text-subtitle">
+              Python | Apr 2018
+            </div>
+            <div class="content-item-text-description">
+              My EECS 126 final project team applied <a href="https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">Markov Chain Monte Carlo</a> sampling to the classic game of Mastermind. For fun, we got our algorithm to play an image-guessing game. <a href="./projects/mastermind.pdf">Project report here</a>.
+            </div>
+          </div>
+        </div>
+        <!-- ynpm search -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/ynpm.png" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              ynpm search
+            </div>
+            <div class="content-item-text-subtitle">
+              Javascript/Node.js, HTML, CSS | Jun 2017
+            </div>
+            <div class="content-item-text-description">
+              <a href="https://www.yahoo.com/">Yahoo!</a> summer internship project. Redesigned and rebuilt a developer-facing search website for internal and external <a href="https://www.npmjs.com/">npm modules</a>.
+            </div>
+          </div>
+        </div>
+        <!-- Easy Urban Dictionary Lookup -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/urbandict.jpg" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              <a href="https://chrome.google.com/webstore/detail/easy-urban-dictionary-loo/jpnfkdokcadnkpmpfjbblfjjokffpbio">
+                Urban Dictionary Chrome Extension 
+              </a>
+            </div>
+            <div class="content-item-text-subtitle">
+              Javascript/jQuery, HTML, CSS | Jan 2017
+            </div>
+            <div class="content-item-text-description">
+              Built and released an elegant <a href="https://chrome.google.com/webstore/category/extensions">chrome extension</a> that allows users to easily view <a href="http://www.urbandictionary.com/">Urban Dictionary</a> definitions as they browse the web. 
+            </div>
+          </div>
+        </div>
+        <!-- Scheme Interpreter -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/schemeart.png" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              Scheme Interpreter
+            </div>
+            <div class="content-item-text-subtitle">
+              Python, Scheme | Nov 2016
+            </div>
+            <div class="content-item-text-description">
+              Created a basic <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)">Scheme</a> interpreter in Python. For fun, I used Scheme to randomly generated recursive art that won 2nd place (out of 32 entries) in <a href="https://cs61a.org/">CS61A</a>'s Scheme Recursive Art Contest.
+            </div>
+          </div>
+        </div>
+        <!-- Handwritten Digit Recognizer -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/digits.png" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              Handwritten Digit Recognizer
+            </div>
+            <div class="content-item-text-subtitle">
+              Octave | Jul 2016
+            </div>
+            <div class="content-item-text-description">
+              My first exposure to ML! Developed an algorithm to recognize handwritten digits using a neural network with Octave while self-studying <a href="https://www.coursera.org/learn/machine-learning">Stanford’s Coursera course</a>.
+            </div>
+          </div>
+        </div>
+        <!-- Colorbox -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/colorbox.png" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              Colorbox
+            </div>
+            <div class="content-item-text-subtitle">
+              Swift/SpriteKit | Jul 2015
+            </div>
+            <div class="content-item-text-description">
+              Designed and created an original iPhone game called ColorBox from scratch using Swift and <a href= "https://developer.apple.com/reference/spritekit">SpriteKit</a>. 
+            </div>
+          </div>
+        </div>
+        <!-- Chelsea's Dog Resort -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <a href="http://chelseasdogresort.wixsite.com/dogs" class="img-link">
+              <img src="./images/dogs.png" class="content-item-image"/>
+            </a>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              <a href="http://chelseasdogresort.wixsite.com/dogs">
+                Chelsea's Dog Resort
+              </a>
+            </div>
+            <div class="content-item-text-subtitle">
+              Wix Website Builder | Jan 2015
+            </div>
+            <div class="content-item-text-description">
+              Designed and created a beautiful website to for our family dog sitting business. Co-founded the business with my sister, Chelsea.
+            </div>
+          </div>
+        </div>
+        <!-- Japanese Snow Monkeys -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/monkeys.png" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              <a href="https://www.youtube.com/watch?v=pH8k51d99iI">
+                Japanese Snow Monkey Adventure!
+                </a>
+            </div>
+            <div class="content-item-text-subtitle">
+              Japan Trip | Jan 2015
+            </div>
+            <div class="content-item-text-description">
+              There's a <a href="http://en.jigokudani-yaenkoen.co.jp/">Snow Monkey Park</a> in Japan where snow monkeys roam free! (sorry in advance for shaky filming)
+              <br/>
+              Also, we went on an Australia trip in 2011 where I got to meet wallabies in <a href="http://www.featherdale.com.au/">Featherdale Wildlife Park!</a> <a href="./images/wallaby.jpg">[pic]</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr/>
+      <!-- Footer -->
+      <div class="footer-container">
+        <div class="footer-item">
+          Thanks for visiting! I made this website from scratch.
+        </div>
+        <div class="footer-item">
+          <a href="https://github.com/darrenlee2/darrenlee2.github.io">Github code here.</a>
+        </div>
+        <div class="footer-item">
+          website last updated: 2018-07-07
+        </div>
+      </div>
     </div>
   </body>
 </html>
