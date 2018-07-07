@@ -125,7 +125,7 @@ hr {
 	font-size: large;
 	height: 100%;
 	margin: 0 10px 0 15px;
-	overflow-y: auto;
+	overflow: auto;
 }
 
 .intro-container {
@@ -145,7 +145,7 @@ hr {
 }
 
 .intro-text-break {
-	height: 10%;
+	height: 20px;
 }
 
 .link-item {
