@@ -124,7 +124,8 @@ hr {
 	background: #eee;
 	font-size: large;
 	height: 100%;
-	margin: 0 25px 0 25px;
+	margin: 0 10px 0 15px;
+	overflow-y: auto;
 }
 
 .intro-container {
@@ -141,6 +142,10 @@ hr {
 	line-height: 130%;
 	margin: 20px;
 	text-align: justify;
+}
+
+.intro-text-break {
+	height: 10%;
 }
 
 .link-item {
