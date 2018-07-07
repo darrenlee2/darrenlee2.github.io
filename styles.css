@@ -120,10 +120,6 @@ hr {
 	padding: 0;
 }
 
-.img-link {
-	display: inherit;
-}
-
 .intro-text-container {
 	background: #eee;
 	font-size: large;
@@ -176,6 +172,10 @@ hr {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 	padding: 0;
+}
+
+.profile-pic-container {
+	height: 100%;
 }
 
 #profile-pic {
